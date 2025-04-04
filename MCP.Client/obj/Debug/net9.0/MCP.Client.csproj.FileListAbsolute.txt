@@ -25,3 +25,4 @@
 /Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.Client/obj/Debug/net9.0/MCP.Client.pdb
 /Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.Client/obj/Debug/net9.0/MCP.Client.genruntimeconfig.cache
 /Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.Client/obj/Debug/net9.0/ref/MCP.Client.dll
+/Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.Client/obj/Debug/net9.0/MCP.Client.sourcelink.json

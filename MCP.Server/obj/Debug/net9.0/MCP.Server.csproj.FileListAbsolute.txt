@@ -47,3 +47,4 @@
 /Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.Server/obj/Debug/net9.0/MCP.Server.pdb
 /Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.Server/obj/Debug/net9.0/MCP.Server.genruntimeconfig.cache
 /Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.Server/obj/Debug/net9.0/ref/MCP.Server.dll
+/Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.Server/obj/Debug/net9.0/MCP.Server.sourcelink.json

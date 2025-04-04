@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "dgSpecHash": "xpfSZlvZzsw=",
+  "success": true,
+  "projectFilePath": "/Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.LlmIntegration/MCP.LlmIntegration.csproj",
+  "expectedPackageFiles": [
+    "/Users/chadlomax/.nuget/packages/azure.ai.openai/1.0.0-beta.12/azure.ai.openai.1.0.0-beta.12.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/azure.core/1.36.0/azure.core.1.36.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/humanizer.core/2.11.10/humanizer.core.2.11.10.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/jetbrains.annotations/2021.2.0/jetbrains.annotations.2021.2.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/json.more.net/1.9.0/json.more.net.1.9.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/jsonpointer.net/3.0.3/jsonpointer.net.3.0.3.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/jsonschema.net/5.4.2/jsonschema.net.5.4.2.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/jsonschema.net.generation/3.5.1/jsonschema.net.generation.3.5.1.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.bcl.asyncinterfaces/8.0.0/microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.bcl.timeprovider/8.0.0/microsoft.bcl.timeprovider.8.0.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.ai.abstractions/9.3.0-preview.1.25161.3/microsoft.extensions.ai.abstractions.9.3.0-preview.1.25161.3.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.configuration/9.0.3/microsoft.extensions.configuration.9.0.3.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.3/microsoft.extensions.configuration.abstractions.9.0.3.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.configuration.fileextensions/9.0.3/microsoft.extensions.configuration.fileextensions.9.0.3.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.configuration.json/9.0.3/microsoft.extensions.configuration.json.9.0.3.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.configuration.usersecrets/9.0.3/microsoft.extensions.configuration.usersecrets.9.0.3.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.diagnostics.abstractions/9.0.0/microsoft.extensions.diagnostics.abstractions.9.0.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.fileproviders.abstractions/9.0.3/microsoft.extensions.fileproviders.abstractions.9.0.3.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.fileproviders.physical/9.0.3/microsoft.extensions.fileproviders.physical.9.0.3.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.filesystemglobbing/9.0.3/microsoft.extensions.filesystemglobbing.9.0.3.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.hosting.abstractions/9.0.0/microsoft.extensions.hosting.abstractions.9.0.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.extensions.primitives/9.0.3/microsoft.extensions.primitives.9.0.3.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.semantickernel/1.0.1/microsoft.semantickernel.1.0.1.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.semantickernel.abstractions/1.0.1/microsoft.semantickernel.abstractions.1.0.1.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.semantickernel.connectors.openai/1.0.1/microsoft.semantickernel.connectors.openai.1.0.1.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.semantickernel.core/1.0.1/microsoft.semantickernel.core.1.0.1.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/microsoft.semantickernel.plugins.core/1.0.1-alpha/microsoft.semantickernel.plugins.core.1.0.1-alpha.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/modelcontextprotocol/0.1.0-preview.5/modelcontextprotocol.0.1.0-preview.5.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/system.net.serversentevents/10.0.0-preview.2.25163.2/system.net.serversentevents.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
