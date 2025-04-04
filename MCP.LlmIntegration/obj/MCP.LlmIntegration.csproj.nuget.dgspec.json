@@ -60,6 +60,10 @@
             "ModelContextProtocol": {
               "target": "Package",
               "version": "[0.1.0-preview.5, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [

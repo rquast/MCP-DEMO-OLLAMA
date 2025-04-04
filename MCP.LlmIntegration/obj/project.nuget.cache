@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xpfSZlvZzsw=",
+  "dgSpecHash": "HiKruNw5LAg=",
   "success": true,
   "projectFilePath": "/Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.LlmIntegration/MCP.LlmIntegration.csproj",
   "expectedPackageFiles": [
@@ -37,8 +37,10 @@
     "/Users/chadlomax/.nuget/packages/microsoft.semantickernel.core/1.0.1/microsoft.semantickernel.core.1.0.1.nupkg.sha512",
     "/Users/chadlomax/.nuget/packages/microsoft.semantickernel.plugins.core/1.0.1-alpha/microsoft.semantickernel.plugins.core.1.0.1-alpha.nupkg.sha512",
     "/Users/chadlomax/.nuget/packages/modelcontextprotocol/0.1.0-preview.5/modelcontextprotocol.0.1.0-preview.5.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/openai/2.1.0/openai.2.1.0.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/system.clientmodel/1.2.1/system.clientmodel.1.2.1.nupkg.sha512",
     "/Users/chadlomax/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
-    "/Users/chadlomax/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
+    "/Users/chadlomax/.nuget/packages/system.memory.data/6.0.0/system.memory.data.6.0.0.nupkg.sha512",
     "/Users/chadlomax/.nuget/packages/system.net.serversentevents/10.0.0-preview.2.25163.2/system.net.serversentevents.10.0.0-preview.2.25163.2.nupkg.sha512",
     "/Users/chadlomax/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/chadlomax/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
