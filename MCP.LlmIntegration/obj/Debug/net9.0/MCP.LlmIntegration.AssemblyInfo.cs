@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MCP.LlmIntegration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01896b0876c1bbff0ba0a15d54dcecdde08d5cde")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efe91f64d084bede4860c55cf652aed6a1aba93d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MCP.LlmIntegration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MCP.LlmIntegration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
