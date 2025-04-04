@@ -50,7 +50,7 @@ class Program
         string serverPath = Path.GetFullPath(Path.Combine(
             AppDomain.CurrentDomain.BaseDirectory, 
             "..", "..", "..", "..", 
-            "MCP.Server", "bin", "Debug", "net8.0", "MCP.Server"));
+            "MCP.Server", "bin", "Debug", "net9.0", "MCP.Server"));
         
         // For Windows, add .exe extension if needed
         if (OperatingSystem.IsWindows())

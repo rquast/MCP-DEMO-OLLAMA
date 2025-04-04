@@ -50,3 +50,5 @@
 /Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.LlmIntegration/obj/Debug/net9.0/MCP.LlmIntegration.pdb
 /Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.LlmIntegration/obj/Debug/net9.0/MCP.LlmIntegration.genruntimeconfig.cache
 /Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.LlmIntegration/obj/Debug/net9.0/ref/MCP.LlmIntegration.dll
+/Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.LlmIntegration/bin/Debug/net9.0/OpenAI.dll
+/Users/chadlomax/DotnetProjects/MCP/MCP-Demo/MCP.LlmIntegration/bin/Debug/net9.0/System.ClientModel.dll
