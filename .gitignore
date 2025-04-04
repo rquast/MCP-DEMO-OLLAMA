@@ -1,0 +1,32 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.db
+
+# Dev Container / Docker
+.vscode/
+.devcontainer/*.log
+workspace/
+*.pid
+docker/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# EF generated files
+Migrations/
+
+# Logs
+*.log
+
+# Node/NPM artifacts
+node_modules/
+
+# Secrets (if used locally)
+secrets.json
+.env
+publish/
