@@ -2,6 +2,7 @@
 using ModelContextProtocol.Client;
 using System.Text.Json;
 using System.Text.RegularExpressions;
+using OpenAI;
 using OpenAI.Chat;
 
 namespace MCP.LlmIntegration;
@@ -15,7 +16,7 @@ class Program
     
     static async Task Main(string[] args)
     {
-        Console.WriteLine("MCP-OpenAI Integration Demo");
+        Console.WriteLine("MCP-Ollama Integration Demo");
         Console.WriteLine("===========================");
         
         try
@@ -23,13 +24,13 @@ class Program
             // Step 1: Set up the MCP client
             var mcpClient = await SetupMcpClient();
             
-            // Step 2: Set up the OpenAI ChatClient
+            // Step 2: Set up the Ollama ChatClient
             var chatClient = SetupChatClient();
             
             // Step 3: List available tools
             var tools = await ListToolsAsync(mcpClient);
             
-            // Step 4: Run the chat loop with OpenAI
+            // Step 4: Run the chat loop with Ollama
             await RunChatLoopWithOpenAI(mcpClient, chatClient, tools);
             
             // Clean up
@@ -87,25 +88,21 @@ class Program
     }
     
     static ChatClient SetupChatClient()
-    {
-        Console.WriteLine("Setting up OpenAI ChatClient...");
+    {        
+        Console.WriteLine($"Connecting to Ollama");
         
-        // Get the API key from user secrets
-        string? apiKey = Configuration["OpenAI:ApiKey"];
+        var client = new OpenAIClient(
+            new System.ClientModel.ApiKeyCredential("ollama"),
+            new OpenAIClientOptions
+            {
+                Endpoint = new Uri("http://localhost:11434/v1/")
+            }
+        );
+
+        // Create a chat client for your desired model
+        var chatClient = client.GetChatClient("qwen3");
         
-        if (string.IsNullOrEmpty(apiKey))
-        {
-            throw new InvalidOperationException(
-                "OpenAI API key not found in user secrets. " +
-                "Please run: dotnet user-secrets set \"OpenAI:ApiKey\" \"your-api-key\"");
-        }
-        
-        // Create the ChatClient with model and API key
-        var chatClient = new ChatClient(
-            model: "gpt-4o",
-            apiKey: apiKey);
-        
-        Console.WriteLine("OpenAI ChatClient set up successfully.");
+        Console.WriteLine("Ollama ChatClient set up successfully.");
         return chatClient;
     }
     
@@ -148,7 +145,7 @@ class Program
     
     static async Task RunChatLoopWithOpenAI(IMcpClient mcpClient, ChatClient chatClient, List<McpClientTool> tools)
     {
-        Console.WriteLine("\nChat with OpenAI (type 'exit' to quit):");
+        Console.WriteLine("\nChat with Ollama (type 'exit' to quit):");
         Console.WriteLine("----------------------------------------");
         
         // Create a list to store chat messages
@@ -171,7 +168,7 @@ class Program
                 // Add the user's message
                 messages.Add(new UserChatMessage(userInput));
                 
-                // Get completion from OpenAI
+                // Get completion from Ollama
                 var completionResult = await chatClient.CompleteChatAsync(messages);
                 string responseText = completionResult.Value.Content[0].Text;
                 
